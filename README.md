@@ -11,6 +11,10 @@ and save it into any directory c:\UltraEdit\.
 You can also download [format option file](https://github.com/sqlparser/isf_ultraedit/blob/master/bin/fo.json)
 and put it into c:\UltraEdit\.  You can change options in this file to control the layout of formatted sql.
 
+Config this plugin via Advanced -> Tool configuration:
+
+<img scr="https://github.com/sqlparser/isf_ultraedit/blob/master/tutor/format_selected_sql_config1.png" alt="sql format plugin for UltraEdit">
+
 
 
 For detailed explanation of those format options, Please check document here:

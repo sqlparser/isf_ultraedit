@@ -5,11 +5,13 @@ SQL Formatter plugin for UltraEdit
 
 
 ####Install
-Just download [sqlformat.dll](https://github.com/sqlparser/isf_notepad/blob/master/bin/sqlFormat.dll?raw=true)
-and put it into UltraEdit\plugins directory and then restart UltraEdit.
+Just download [sqlformat.exe](https://github.com/sqlparser/isf_ultraedit/blob/master/bin/sqlFormat.exe?raw=true)
+and save it into any directory c:\UltraEdit\.
 
-You can also download [format option file](https://github.com/sqlparser/isf_notepad/blob/master/bin/Config/sqlformat/fo.json)
-and put it into UltraEdit\plugins\Config\sqlformat\.  You can change options in this file to control the layout of formatted sql.
+You can also download [format option file](https://github.com/sqlparser/isf_ultraedit/blob/master/bin/fo.json)
+and put it into c:\UltraEdit\.  You can change options in this file to control the layout of formatted sql.
+
+
 
 For detailed explanation of those format options, Please check document here:
 
@@ -18,14 +20,9 @@ https://github.com/sqlparser/sql-pretty-printer/wiki/SQL-Coding-Standard-and-Gui
 This sql formatter plugin works under UltraEdit v5.1 and later.
 
 ####Usage
-You can format all or any selected SQL in editor by click "Format" via Plugins->SQL Format.
+Format selected SQL in editor by click "Format selected SQL" via menu advanced -> Format selected SQL.
 
-You can add "Format SQL" into Context Menu by select Settings->Edit Popup ContextMenu,
-modify contextMenu.xml by adding this line:
 
-```
-<Item FolderName="Plugin commands" PluginEntryName="SQL Format" PluginCommandItemName="Format" ItemNameAs="Format SQL"/>
-```
 
 ####NOTE
 In order to use this sql formatter plugin for UltraEdit, you should be online.

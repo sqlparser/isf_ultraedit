@@ -10,13 +10,13 @@ and save it into any directory \<your sqlFormat dir>.
 
 Config this plugin via Advanced -> Tool configuration:
 
-Enter \<your sqlFormat dir\>\sqlFormat.exe -s "%sel%" in Command line
+Enter \<your sqlFormat dir\>\sqlFormat.exe -f %P%N%E in Command line
 
-<img src="https://github.com/sqlparser/isf_ultraedit/blob/master/tutor/format_selected_sql_config1.png" alt="sql format plugin for UltraEdit setup 1">
+<img src="https://github.com/sqlparser/isf_ultraedit/blob/master/tutor/format_all_sql_config1.png" alt="sql format plugin for UltraEdit setup 1">
 
 Set output options like this:
 
-<img src="https://github.com/sqlparser/isf_ultraedit/blob/master/tutor/format_selected_sql_config2.png" alt="sql format plugin for UltraEdit setup 2">
+<img src="https://github.com/sqlparser/isf_ultraedit/blob/master/tutor/format_all_sql_config2.png" alt="sql format plugin for UltraEdit setup 2">
 
 
 ####Usage

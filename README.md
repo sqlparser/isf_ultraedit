@@ -20,7 +20,7 @@ Set output options like this:
 
 
 ####Usage
-Format selected SQL in editor by click "Format selected SQL" via menu advanced -> Format selected SQL,
+Format SQL in editor by click "Format SQL File" via menu advanced -> Format SQL File,
 or use hotkey Ctrl+Shift+0.
 
 You can also download [format option file](https://github.com/sqlparser/isf_ultraedit/blob/master/bin/fo.json)
